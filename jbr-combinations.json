@@ -1,0 +1,12 @@
+{
+  "@context": [
+    "https://linkedsoftwaredependencies.org/bundles/npm/jbr/^6.0.0/components/context.jsonld"
+  ],
+  "@id": "urn:jbr:experiment-jbr-derived-resources-combinations-combinations",
+  "@type": "FullFactorialCombinationProvider",
+  "commonGenerated": true,
+  "factors": {
+    "config": ["adaptive-derived-resources", "default", "adaptive", 
+               "adaptive-derived-resources-no-chain", "adaptive-derived-resources-pattern-only"]
+  }
+}

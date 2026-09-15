@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "name": "experiment-jbr-derived-resources-combinations",
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "@jbr-experiment/solidbench-derived-resources":  "npm:@rubeneschauzier/solidbench-derived-resources@6.1.0",
+    "@jbr-hook/sparql-endpoint-comunica": "^6.0.0",
+    "jbr": "^6.0.0"
+  },
+  "scripts": {
+    "jbr": "cross-env NODE_OPTIONS=--max-old-space-size=8192 jbr",
+    "validate": "jbr validate"
+  }
+}
