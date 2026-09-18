@@ -13,7 +13,8 @@
     "ccqslt:config/extract-links/actors/solid-type-index-noinference.json",
 
     "ccqslt:config/context-preprocess/links-filter.json",
-    "ccqslt:config/rdf-resolve-hypermedia-links-queue/actors/wrapper-filter.json"
+    "ccqslt:config/rdf-resolve-hypermedia-links-queue/actors/wrapper-filter.json",
 
+    "ccqs:config/http/actors-delay.json"
   ]
 }

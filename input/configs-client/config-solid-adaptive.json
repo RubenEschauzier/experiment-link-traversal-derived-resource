@@ -15,6 +15,8 @@
     "ccqslt:config/rdf-join/actors-inner-multi-adaptive-stems-lottery.json",
     "ccqs:config/rdf-join/routers/router-lottery-selectivity.json",
     "ccqs:config/rdf-join/routers/router-min-index.json",
-    "ccqs:config/rdf-join/routers/router-lottery.json"
+    "ccqs:config/rdf-join/routers/router-lottery.json",
+
+    "ccqs:config/http/actors-delay.json"
   ]
 }
