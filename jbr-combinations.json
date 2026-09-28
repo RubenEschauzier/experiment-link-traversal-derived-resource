@@ -6,7 +6,8 @@
   "@type": "FullFactorialCombinationProvider",
   "commonGenerated": true,
   "factors": {
-    "config": ["adaptive-derived-resources", "default", "adaptive", 
-               "adaptive-derived-resources-no-chain", "adaptive-derived-resources-pattern-only"]
+    "config": ["adaptive-derived-resources", "default", "adaptive", "adaptive-derived-resources-composite-only",
+               "adaptive-derived-resources-no-chain", "adaptive-derived-resources-individual-requests",
+               "adaptive-derived-resources-pattern-only"]
   }
 }

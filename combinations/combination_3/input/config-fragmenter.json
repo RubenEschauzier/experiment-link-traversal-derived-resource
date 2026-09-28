@@ -462,10 +462,9 @@
       {
         "@type": "FragmentationStrategyDatasetSummaryDerivedResourceQpf",
         "datasetPatterns": [
-          "^(.+\/pods\/[0-9]+\/)"
+          "^(.+/pods/[0-9]+/)"
         ],
-        "exclusionPatterns": [
-        ],
+        "exclusionPatterns": [],
         "filterFilename": "filters/filter-qpf-:COUNT:",
         "metadataQuadsGenerator": {
           "@type": "DerivedResourceMetadataGenerator",
@@ -480,7 +479,31 @@
         "iriToPath": {
           "http://": "out-fragments/http/",
           "https://": "out-fragments/https/"
-        }
+        },
+        "inlineFilters": true
+      },
+      {
+        "@type": "FragmentationStrategyDatasetSummaryDerivedResourcePatternBatch",
+        "datasetPatterns": [
+          "^(.+/pods/[0-9]+/)"
+        ],
+        "exclusionPatterns": [],
+        "filterFilename": "filters/filter-patterns-:COUNT:",
+        "metadataQuadsGenerator": {
+          "@type": "DerivedResourceMetadataGenerator",
+          "derivedNamespace": "urn:npm:solid:derived-resources:",
+          "metaFilename": ".meta",
+          "templatesTemplate": "resources/resource-patterns-:COUNT:"
+        },
+        "selectorPatterns": [
+          "**/*.ttl",
+          "**/*.nq"
+        ],
+        "iriToPath": {
+          "http://": "out-fragments/http/",
+          "https://": "out-fragments/https/"
+        },
+        "inlineFilters": true
       },
       {
         "@type": "FragmentationStrategyDatasetSummaryDerivedResourceStarTemplate",
@@ -489,10 +512,9 @@
         "minSizeSelect": 2,
         "maxSizeSelect": 10,
         "datasetPatterns": [
-          "^(.+\/pods\/[0-9]+\/)"
+          "^(.+/pods/[0-9]+/)"
         ],
-        "exclusionPatterns": [
-        ],
+        "exclusionPatterns": [],
         "filterFilename": "filters/filter-star-template-:COUNT:",
         "metadataQuadsGenerator": {
           "@type": "TemplateDerivedResourceMetadataGenerator",
@@ -507,22 +529,21 @@
         ],
         "directMetadataLinkPredicate": "http://www.w3.org/2007/05/powder-s#describedby",
         "profilePredicateRegex": "vocabulary/hasCreator$",
-        "podBaseUriExtractionRegex": "^(.+\/pods\/[0-9]+\/)",
-        "fileMetadataLinkPredicate": "https://knows.idlab.ugent.be/vocab/derived#definedBy",
+        "podBaseUriExtractionRegex": "^(.+/pods/[0-9]+/)",
         "iriToPath": {
           "http://": "out-fragments/http/",
           "https://": "out-fragments/https/"
-        }
+        },
+        "inlineFilters": true
       },
       {
         "@type": "FragmentationStrategyDatasetSummaryDerivedResourceLinearTemplate",
         "minSizeSelect": 2,
         "maxSizeSelect": 4,
         "datasetPatterns": [
-          "^(.+\/pods\/[0-9]+\/)"
+          "^(.+/pods/[0-9]+/)"
         ],
-        "exclusionPatterns": [
-        ],
+        "exclusionPatterns": [],
         "filterFilename": "filters/filter-linear-template-:COUNT:",
         "metadataQuadsGenerator": {
           "@type": "TemplateDerivedResourceMetadataGenerator",
@@ -538,7 +559,8 @@
         "iriToPath": {
           "http://": "out-fragments/http/",
           "https://": "out-fragments/https/"
-        }
+        },
+        "inlineFilters": true
       }
     ]
   },

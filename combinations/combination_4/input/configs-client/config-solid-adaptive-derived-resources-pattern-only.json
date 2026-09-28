@@ -18,12 +18,13 @@
     "ccqs:config/rdf-join/routers/router-lottery.json",
 
     "ccqslt:config/extract-links/actors/solid-derived-resources.json",
+    "ccqslt:config/optimize-query-operation/prefetch-derived-resources.json",
     "ccqslt:config/derived-resource-identify/mediators.json",
     "ccqslt:config/derived-resource-identify/actors/qpf.json",
     "ccqslt:config/derived-resource-identify/actors/parameterized-pattern.json",
+    "ccqslt:config/derived-resource-identify/actors/pattern-batch.json",
     
     "ccqslt:config/context-preprocess/adaptive-join-component.json",
-    
     "ccqslt:config/derived-resource-propose/mediators.json",
     "ccqslt:config/derived-resource-propose/actors.json",
     "ccqslt:config/derived-resource-partition/mediators.json",
@@ -36,6 +37,8 @@
     "ccqslt:config/rdf-resolve-hypermedia-links-queue/actors/wrapper-filter-dynamic-priority.json",
 
     "ccqslt:config/rdf-resolve-hypermedia-links-queue/actors/wrapper-prioritize-derived-resources.json",
-    "ccqslt:config/extract-links/actors/predicates-derived-resources.json"
+    "ccqslt:config/extract-links/actors/predicates-derived-resources.json",
+
+    "ccqs:config/http/actors-delay.json"
   ]
 }
