@@ -29,10 +29,11 @@ Generate combinations:
 ```bash
 $ npm run jbr -- generate-combinations
 ```
-Generate the dataset and queries:
+Generate the dataset, queries, and pod HDT files:
 
 ```bash
 $ npm run jbr -- prepare
+$ npm run generate:hdt
 ```
 
 Run the experiment locally:
