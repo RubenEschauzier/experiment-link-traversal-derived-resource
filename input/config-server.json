@@ -1,7 +1,8 @@
 {
   "@context": [
-    "https://linkedsoftwaredependencies.org/bundles/npm/@solid/community-server/^7.0.0/components/context.jsonld",
-    "https://linkedsoftwaredependencies.org/bundles/npm/@solidlab/derived-resources-component/^1.0.0/components/context.jsonld"
+    "https://linkedsoftwaredependencies.org/bundles/npm/@solid/community-server/^8.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/@solidlab/derived-resources-component/^1.0.0/components/context.jsonld",
+    "https://linkedsoftwaredependencies.org/bundles/npm/asynchronous-handlers/^1.0.0/components/context.jsonld"
   ],
   "import": [
     "css:config/app/init/initializers/logger.json",
@@ -39,6 +40,7 @@
     "derived:config/parts/cache.json",
     "derived:config/parts/disable-index.json",
     "derived:config/parts/filter.json",
+    "derived:config/parts/hdt.json",
     "derived:config/parts/manager.json",
     "derived:config/parts/query-string.json",
     "derived:config/parts/selector/cached-store.json",
