@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+`#!/usr/bin/env bash
 # Builds one HDT index per pod, for derived resources to be answered from without loading a pod into
 # memory first. The index is written into the pod itself, as <pod>/.index.hdt.
 #
@@ -49,3 +49,4 @@ if [ "$CONVERTED" -ne "$TOTAL" ]; then
   echo "Some pods could not be converted" >&2
   exit 1
 fi
+`

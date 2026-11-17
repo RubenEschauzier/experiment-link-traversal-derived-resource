@@ -28,6 +28,8 @@
   "queryRunnerRequestDelay": 0,
   "queryRunnerEndpointAvailabilityCheckTimeout": 1000,
   "queryRunnerUrlParams": {},
+  "queryResourceSamplingInterval": 100,
+  "queryResourceIdleTimeout": 180000,
   "hookSparqlEndpoint": {
     "@id": "urn:jbr:experiment-jbr-derived-resources-combinations:combination_1:hookSparqlEndpoint",
     "@type": "HookSparqlEndpointComunica",
@@ -41,7 +43,7 @@
     "additionalBinds": [],
     "clientPort": 3001,
     "clientLogLevel": "warn",
-    "queryTimeout": 300,
+    "queryTimeout": 180,
     "maxMemory": 8192
   }
 }
