@@ -8,6 +8,6 @@
   "factors": {
     "config": ["adaptive-derived-resources", "default", "adaptive", "adaptive-derived-resources-composite-only",
                "adaptive-derived-resources-no-chain", "adaptive-derived-resources-individual-requests",
-               "adaptive-derived-resources-pattern-only"]
+               "adaptive-derived-resources-pattern-only", "adaptive-derived-resources-no-priority"]
   }
 }
